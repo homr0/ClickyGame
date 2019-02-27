@@ -1,0 +1,157 @@
+[
+  {
+    "id": 1,
+    "name": "Bulbasaur",
+    "image": "https://cdn.bulbagarden.net/upload/thumb/2/21/001Bulbasaur.png/500px-001Bulbasaur.png"
+  },
+  
+  {
+    "id": 2,
+    "name": "Ivysaur",
+    "image": "https://cdn.bulbagarden.net/upload/7/73/002Ivysaur.png"
+  },
+
+  {
+    "id": 3,
+    "name": "Venasaur",
+    "image": "https://cdn.bulbagarden.net/upload/thumb/a/ae/003Venusaur.png/500px-003Venusaur.png"
+  },
+  
+  {
+    "id": 4,
+    "name": "Charmander",
+    "image": "https://cdn.bulbagarden.net/upload/thumb/7/73/004Charmander.png/500px-004Charmander.png"
+  },
+
+  {
+    "id": 5,
+    "name": "Charmeleon",
+    "image": "https://cdn.bulbagarden.net/upload/4/4a/005Charmeleon.png"
+  },
+
+  {
+    "id": 6,
+    "name": "Charizard",
+    "image": "https://cdn.bulbagarden.net/upload/thumb/7/7e/006Charizard.png/500px-006Charizard.png"
+  },
+  
+  {
+    "id": 7,
+    "name": "Squirtle",
+    "image": "https://cdn.bulbagarden.net/upload/thumb/3/39/007Squirtle.png/500px-007Squirtle.png"
+  },
+  
+  {
+    "id": 8,
+    "name": "Wartortle",
+    "image": "https://cdn.bulbagarden.net/upload/0/0c/008Wartortle.png"
+  },
+  
+  {
+    "id": 9,
+    "name": "Blastoise",
+    "image": "https://cdn.bulbagarden.net/upload/thumb/0/02/009Blastoise.png/500px-009Blastoise.png"
+  },
+  
+  {
+    "id": 10,
+    "name": "Caterpie",
+    "image": "https://cdn.bulbagarden.net/upload/5/5d/010Caterpie.png"
+  },
+  
+  {
+    "id": 11,
+    "name": "Metapod",
+    "image": "https://cdn.bulbagarden.net/upload/c/cd/011Metapod.png"
+  },
+  
+  {
+    "id": 12,
+    "name": "Butterfree",
+    "image": "https://cdn.bulbagarden.net/upload/thumb/d/d1/012Butterfree.png/500px-012Butterfree.png"
+  },
+  
+  {
+    "id": 13,
+    "name": "Weedle",
+    "image": "https://cdn.bulbagarden.net/upload/d/df/013Weedle.png"
+  },
+  
+  {
+    "id": 14,
+    "name": "Kakuna",
+    "image": "https://cdn.bulbagarden.net/upload/thumb/f/f0/014Kakuna.png/500px-014Kakuna.png"
+  },
+  
+  {
+    "id": 15,
+    "name": "Beedrill",
+    "image": "https://cdn.bulbagarden.net/upload/thumb/6/61/015Beedrill.png/500px-015Beedrill.png"
+  },
+  
+  {
+    "id": 16,
+    "name": "Pidgey",
+    "image": "https://cdn.bulbagarden.net/upload/thumb/5/55/016Pidgey.png/500px-016Pidgey.png"
+  },
+  
+  {
+    "id": 17,
+    "name": "Pidgeotto",
+    "image": "https://cdn.bulbagarden.net/upload/thumb/7/7a/017Pidgeotto.png/500px-017Pidgeotto.png"
+  },
+  
+  {
+    "id": 18,
+    "name": "Pidgeot",
+    "image": "https://cdn.bulbagarden.net/upload/thumb/5/57/018Pidgeot.png/500px-018Pidgeot.png"
+  },
+  
+  {
+    "id": 19,
+    "name": "Rattata",
+    "image": "https://cdn.bulbagarden.net/upload/thumb/4/46/019Rattata.png/500px-019Rattata.png"
+  },
+  
+  {
+    "id": 20,
+    "name": "Raticate",
+    "image": "https://cdn.bulbagarden.net/upload/thumb/f/f4/020Raticate.png/500px-020Raticate.png"
+  },
+  
+  {
+    "id": 21,
+    "name": "Spearow",
+    "image": "https://cdn.bulbagarden.net/upload/8/8b/021Spearow.png"
+  },
+  
+  {
+    "id": 22,
+    "name": "Fearow",
+    "image": "https://cdn.bulbagarden.net/upload/a/a0/022Fearow.png"
+  },
+  
+  {
+    "id": 23,
+    "name": "Ekans",
+    "image": "https://cdn.bulbagarden.net/upload/f/fa/023Ekans.png"
+  },
+  
+  {
+    "id": 24,
+    "name": "Arbok",
+    "image": "https://cdn.bulbagarden.net/upload/c/cd/024Arbok.png"
+  },
+  
+  {
+    "id": 25,
+    "name": "Pikachu",
+    "image": "https://cdn.bulbagarden.net/upload/thumb/0/0d/025Pikachu.png/500px-025Pikachu.png"
+  },
+  
+  {
+    "id": 26,
+    "name": "Raichu",
+    "image": "https://cdn.bulbagarden.net/upload/thumb/8/88/026Raichu.png/500px-026Raichu.png"
+  }
+]
