@@ -18,18 +18,27 @@ class App extends React.Component {
 
   // Updates (and resets) the score and high score.
   updateScore = id => {
-    if(id) {
-      this.setState({score: this.state.score + 1});
+    const clicked = this.state.clicked;
 
-      if(this.state.score >= this.state.highScore) this.setState({highScore: this.state.score + 1});
+    if(clicked.indexOf(id) < 0) {
+      this.setState({score: this.state.score + 1})
+
+      clicked.push(id);
+      this.setState({clicked: clicked});
 
       this.setState({status: "You guessed correctly!"});
+
+      if(this.state.score >= this.state.highScore) this.setState({highScore: this.state.score + 1});
     } else {
       this.setState({score: 0});
+
+      this.setState({clicked: []});
       
       this.setState({status: "You guessed incorrectly!"});
     }
   };
+
+  // 
 
   render() {
     return (
