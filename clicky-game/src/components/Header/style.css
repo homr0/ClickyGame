@@ -2,6 +2,7 @@
 
 header {
   font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+  z-index: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -33,6 +34,7 @@ h2 {
   position: absolute;
   top: 50%;
   width: 100%;
+  z-index: -1;
 }
 
 #banner #instructions .col {
