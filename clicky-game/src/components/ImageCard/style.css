@@ -1,0 +1,6 @@
+.card .card-image img {
+  max-width: 400px;
+  height: auto;
+  margin: auto;
+  padding: 1rem;
+}
