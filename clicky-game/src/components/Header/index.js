@@ -6,12 +6,12 @@ function Header(props) {
   return (
     <header className="navbar-fixed">
       <nav>
-        <div id="title" className="nav-wrapper red lighten-2">
-          <a href="/" className="brand-logo center">Pokemon Clicky Game</a>
+        <div id="title" className="nav-wrapper white">
+          <a href="/" className="brand-logo center red-text text-darken-3">Pokemon Clicky Game</a>
         </div>
       </nav>
 
-      <div id="scores" className="row red lighten-3">
+      <div id="scores" className="row red accent-4 white-text">
         <div className="col s6">
           <h2 className="center status">{props.status}</h2>
         </div>
