@@ -50,6 +50,7 @@ class App extends React.Component {
         status: "You guessed incorrectly!",
         score: 0,
         clicked: [],
+        cleared: 0,
         board: this.updateBoard()
       });
     }
