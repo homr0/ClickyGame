@@ -3,7 +3,7 @@ import "./style.css";
 
 function Wrapper(props) {
   return (
-    <main>
+    <main className="container">
       {props.children}
     </main>
   );
