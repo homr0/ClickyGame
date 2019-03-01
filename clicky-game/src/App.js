@@ -6,22 +6,13 @@ import ImageCard from './components/ImageCard';
 import pokemon from './pokemon.json';
 import './App.css';
 
-const initialBoard = [];
-const initialSelection = [];
-
-for(let i = 0; i < 12; i++) {
-  initialBoard.push(pokemon[i]);
-  initialSelection.push(i);
-}
-
 class App extends React.Component {
-  
   state = {
     status: "Click an image to begin.",
     highScore: 0,
     score: 0,
-    selection: initialSelection,
-    board: initialBoard,
+    cleared: 0,
+    board: pokemon.slice(0, 12),
     clicked: [],
     pokemon
   };
@@ -45,9 +36,12 @@ class App extends React.Component {
 
       // Checks if the user has won the game.
       if((this.state.score + 1) % this.state.board.length === 0) {
+        const cleared = this.state.cleared + 1;
+
         this.setState({
-          status: "You have won this game. The board has been reset.",
+          status: "You cleared " + ((cleared > 1) ? cleared + " boards.": "1 board."),
           clicked: [],
+          cleared: cleared,
           board: this.newBoard()
         });
       }
