@@ -48,7 +48,8 @@ function Header(props) {
                   <li>If the image <em>has been clicked before</em>, you <strong>lose</strong> the game.</li>
                 </ul>
               </li>
-              <li>Once you win or lose the game, your score is reset to 0 and the images on the board will be changed.</li>
+              <li>If you lose the game, your score is reset to 0.</li>
+              <li>If you have guessed all of the images correctly, the board will reset with a new set of images.</li>
             </ol>
           </div>
         </div>
