@@ -46,7 +46,7 @@ class App extends React.Component {
       // Checks if the user has won the game.
       if((this.state.score + 1) % this.state.board.length === 0) {
         this.setState({
-          status: "You have won this game. The board will now reset.",
+          status: "You have won this game. The board has been reset.",
           clicked: [],
           board: this.newBoard()
         });
@@ -61,7 +61,7 @@ class App extends React.Component {
     }
   };
 
-  randomizer = (arr) => {
+  randomizer = arr => {
     let current = arr.length;
 
     while(0 !== current) {
